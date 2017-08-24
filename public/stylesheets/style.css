@@ -1,0 +1,119 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #f4f4f4;
+  color: #666;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.logo {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.container {
+  width: 60rem;
+  border: 1px solid #ccc;
+  margin: 1.125rem auto;
+  padding: 1.2rem;
+  border-top: 3px solid #83cd39;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, p {
+  padding: 5px 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #404137;
+  text-decoration: none;
+}
+
+nav {
+  background: #404137;
+  color: #fff;
+  overflow: auto;
+  height: 2.8rem;
+  padding: 1.2rem 0 0 .6rem;
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+}
+
+nav a {
+  padding: 10px;
+  margin: 0 10px;
+  color: #fff;
+}
+
+nav a.current, nav a:hover {
+  background: #83cd29;
+  color: #000;
+}
+
+.meta {
+  padding: 7px;
+  border: 1px solid #ccc;
+  background: #ccc;
+}
+
+a.more {
+  display: block;
+  width: 6rem;
+  background: #404137;
+  color: #fff;
+  padding: 10px;
+  margin-top: 2rem;
+}
+
+.post {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1.25rem;
+}
+
+#messages {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 2.5rem;
+  text-align: center;
+  height: 2rem;
+  border-top: 1px solid #666;
+
+}
+
+.comment-form {
+  margin: 30px 0;
+}
+
+.comment {
+  background: #ccc;
+  padding: 5px;
+  border: 1px solid #666;
+  margin: 15px 0 20px;
+}
+
+.comment-name {
+  font-weight: bold;
+}
